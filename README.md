@@ -15,22 +15,21 @@ URLZap is a lightweight and intuitive URL shortening web application built using
 ---
 
 ## 📁 Project Structure
-## 📁 Project Structure
 
 ```bash
 urlzap-webapp/
 ├── app/
-│   ├── main.py              # FastAPI routes and logic
-│   ├── shortener.py         # Short code generation and click handlers
-│   ├── storage.py           # JSON file I/O for URLs and analytics
+│   ├── main.py              
+│   ├── shortener.py         
+│   ├── storage.py           
 │   └── templates/
-│       ├── index.html       # UI for shortening URLs
-│       └── analytics.html   # UI for analytics dashboard
+│       ├── index.html       
+│       └── analytics.html   
 ├── data/
-│   └── urls.json            # Stores all shortened URLs and their metadata
-├── .gitignore               # To ignore __pycache__, .env, etc.
-├── requirements.txt         # Python dependencies
-├── README.md                # Project overview and instructions
+│   └── urls.json            
+├── .gitignore               
+├── requirements.txt         
+├── README.md                
 
 ```
 
@@ -62,7 +61,7 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 
 # Open your browser at:
-# http://127.0.0.1:8000
+http://127.0.0.1:8000
 
 ```
 ## 📄 License
