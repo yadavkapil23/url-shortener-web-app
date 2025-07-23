@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'urlzap'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9E57DEB6C7AB426FB9404853B9A0559C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AD7DE7F9DA264ABEBF51951594D25B4E }}
